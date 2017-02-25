@@ -1,3 +1,6 @@
+# installer-file for conda
+export CONDA_FILE="Anaconda2-4.3.0-Linux-x86_64.sh"
+
 # Download anaconda 2 if the file not present, and install.
 if [ ! -f ${CONDA_FILE} ]; then
     wget https://repo.continuum.io/archive/${CONDA_FILE}
